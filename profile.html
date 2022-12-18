@@ -10,8 +10,43 @@
 			  padding:0;
 			}
 			.hori{
-			  display
+			  position: fixed;
+			  display: block;
+			  width: 100%;
+			  background-color: lightgray;
+			  text-align: center;
+			  z-index: 1;
 			
+			}
+			.hori > ul > li{
+			  display: inline-block;
+			  text-align: center;
+			  width: 25%;
+			  border: 1px solid black;
+			  background-color: maroon;
+			}
+			.hori .active{
+				background-color: #a24857;
+				color: #f8f9f9;
+			}
+			.hor > ul{
+				list-style-type: none;
+				padding: O;
+				margin: 0;
+			}
+			.hori a{
+				text-decoration: none;
+				display:  block;
+				font-family: arial;
+			}
+			.hori > ul > li > a{
+				padding: 10px;
+				color:  lightgrey;
+			}
+			.hori > ul > li > a{
+				background-color: #a24857;
+				color:  white;
+				text-transform: uppercase;
 			}
 		
 		
@@ -21,7 +56,7 @@
 	<body>
 		<div class=""hori>
 		    <ul>
-			     <li><a href="profile.html">Profile</a></li>
+			     <li><a href="profile.html" class="active">Profile</a></li>
 			     <li><a href="travel.html">Travel</a></li>
 			     <li><a href="career.html">Career</a></li>
 		    </ul>
